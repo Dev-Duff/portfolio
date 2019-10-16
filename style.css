@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+header.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: aquamarine;
+}
+ul {
+  margin-right: 200px;
+}
+
+.navbar li {
+  display: inline;
+  padding: 0 50px 0 30px;
+}
+
+section.hero {
+  display: flex;
+  margin-top: 30px;
+  height: 80vh;
+}
+div.about,
+.hero img {
+  margin-left: 20px;
+}
+section.project {
+  margin-top: 20px;
+  padding: 20px;
+  height: 100vh;
+  background-color: lightgray;
+  position: relative;
+}
+.skills-list {
+  margin-left: 50px;
+}
+.skills-list > li {
+  font-size: 25px;
+}
+.project1 {
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+.Contact {
+  height: 80vh;
+  padding: 100px;
+  background-color: orange;
+}
+input,
+textarea {
+  width: 50%;
+}
+.textarea {
+  height: 300px;
+}
+button {
+  width: 200px;
+}
+
+footer {
+  height: 20vh;
+  text-align: center;
+  padding: 40px;
+}
+.social > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.scrollButton {
+  height: 100px;
+  z-index: 100;
+  position: fixed;
+  bottom: 10rem;
+  right: 10rem;
+  border-radius: 10px;
+  background-color: lime;
+}
